@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(26, 26, 26, 1);
+}
+
+/* logo section */
+
+.logo-wrapper {
+  height: 200px;
+  background-color: rgba(13, 13, 13, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-wrapper img {
+  width: 183px;
+}
+
+/* add section */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 746px;
+  top: 175px;
+  align-items: center;
+}
+
+.write {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 598px;
+  background-color: rgba(38, 38, 38, 1);
+  height: 54px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: rgba(128, 128, 128, 1);
+}
+
+.add {
+  background-color: rgba(30, 111, 159, 1);
+  width: 130px;
+  border-radius: 8px;
+  height: 54px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19.6px;
+  border: none;
+  cursor: pointer;
+}
+
+/* to do's */
